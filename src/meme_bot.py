@@ -7,6 +7,7 @@ from meme_topics import get_random_topic
 # Load env variables (in GH Actions, set them as secrets)
 load_dotenv()
 
+
 # Step 1: Generate meme caption
 def generate_meme_caption():
     client = OpenAI(
