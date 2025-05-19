@@ -3,16 +3,15 @@ import random
 
 def get_random_topic():
     topics = [
-        "coffee addiction",
-        "cat memes",
+        "dogs or cats",
         "dad jokes",
-        "office humor",
+        "cringy office humor",
         "internet trends",
-        "quirky animals",
-        "food puns",
+        "puns",
         "pop culture references",
         "relationship humor",
-        "work from home struggles"
+        "spongebob",
+        "sports"
     ]
     
     return random.choice(topics)
